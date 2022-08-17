@@ -24,8 +24,7 @@ public class CertsReader {
     private static final String EXPORTED_CACERTS = "exported-certs";
     private static final int TIMEOUT_WS = 60;
 
-    
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         try {
 
             String enderecoWebService = args.length == 0 ? "login.des.caixa" : args[1];
