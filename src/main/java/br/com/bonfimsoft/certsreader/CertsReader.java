@@ -27,7 +27,7 @@ public class CertsReader {
     public static void main(String[] args) {
         try {
 
-            String enderecoWebService = args.length == 0 ? "login.des.caixa" : args[1];
+            String enderecoWebService = args.length == 0 ? "login.des.caixa" : args[0];
 
             File cacertsFile = gerarCacerts(enderecoWebService, 443);
             if (cacertsFile != null) {
