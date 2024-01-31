@@ -11,4 +11,20 @@
         <maven.compiler.target>11</maven.compiler.target>
         <exec.mainClass>br.com.bonfimsoft.certsreader.CertsReader</exec.mainClass>
     </properties>
+    <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.2</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>br.com.bonfimsoft.certsreader.CertsReader</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
