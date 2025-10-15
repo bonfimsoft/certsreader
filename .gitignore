@@ -1,2 +1,3 @@
 /target/
 exported-certs
+*.cer
